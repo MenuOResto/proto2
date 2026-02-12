@@ -1,0 +1,44 @@
+
+/* ---------- Mobile L (sm) -----------*/
+
+@media screen and (max-width: 425px) {
+
+    h1 {
+        font-size: var(--fs-sm-titre1);
+    }
+    h2 {
+        font-size: var(--fs-sm-titre2);
+    }
+    h3 {
+        font-size: var(--fs-sm-titre3);
+    }
+    p {
+        font-size: var(--fs-sm-texte);
+    }
+    li {
+        font-size: var(--fs-sm-li);
+    }
+
+}
+
+/* ---------- Mobile (xs) -----------*/
+
+@media screen and (max-width: 375px) {
+
+    h1 {
+        font-size: var(--fs-xs-titre1);
+    }
+    h2 {
+        font-size: var(--fs-xs-titre2);
+    }
+    h3 {
+        font-size: var(--fs-xs-titre3);
+    }
+    p {
+        font-size: var(--fs-xs-texte);
+    }
+    li {
+        font-size: var(--fs-xs-li);
+    }
+
+}

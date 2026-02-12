@@ -1,0 +1,188 @@
+
+/* ---------- Laptop L (lg) -----------*/
+
+@media screen and (max-width: 1024px) {
+
+    h1 {
+        font-size: var(--fs-lg-titre1);
+    }
+    h2 {
+        font-size: var(--fs-lg-titre2);
+    }
+    h3 {
+        font-size: var(--fs-lg-titre3);
+    }
+    p {
+        font-size: var(--fs-lg-texte);
+    }
+    li {
+        font-size: var(--fs-lg-li);
+    }
+
+    .accueil-p1 {
+        height: 250px;
+        padding: 15px 0 15px 0;
+        grid-template-columns: 413px 1fr 355px;
+    }
+    .accueil-p1-texte {
+        height: 220px;
+        padding: 0 20px 0 20px;
+        grid-template-rows: 1fr 70px 50px 1fr;
+    }
+    .accueil-p1 img {
+        height: 220px;
+    }
+
+    .accueil-p2 {
+        height: 350px;
+        padding: 15px 0 15px 0;
+        grid-template-columns: 318px 1fr 450px;
+    }
+    .accueil-p2-texte {
+        height: 320px;
+        padding: 0 20px 0 20px;
+        grid-template-rows: 1fr 90px 120px 1fr;
+    }
+    .accueil-p2 img {
+        height: 320px;
+    }
+
+    .contenu-p1 {
+        height: 650px;
+        padding: 20px 0 20px 0;
+        grid-template-columns: 488px 1fr 280px;
+    }
+    .contenu-p1-texte {
+        height: 610px;
+        padding: 0 15px 0 15px;
+        grid-template-rows: 1fr 110px 250px 180px 1fr;
+    }
+    .contenu-p1-texte h2 , .contenu-p1-texte p {
+        margin-left: 30px;
+    }
+    .contenu-p1-btns {
+        height: 130px;
+        grid-template-columns: 30px 400px;
+    }
+    .contenu-p1 img {
+        height: 610px;
+    }
+
+    .contenu-p2 {
+        height: 750px;
+        padding: 20px 0 20px 0;
+        grid-template-columns: 243px 1fr 525px;
+    }
+    .contenu-p2-texte {
+        height: 710px;
+        padding: 0 15px 0 15px;
+        grid-template-rows: 1fr 130px 270px 210px 1fr;
+    }
+    .contenu-p2-texte h2 , .contenu-p2-texte p {
+        margin-right: 30px;
+    }
+    .contenu-p2-btns {
+        height: 190px;
+        grid-template-columns: 50px 190px 10px 190px 30px;
+    }
+    .contenu-p2 img {
+        height: 710px;
+    }
+
+    .btn {
+        font-size: var(--fs-lg-bouton);
+    }
+
+    footer {
+        height: 240px;
+        grid-template-columns: 280px 1fr 208px 1fr 280px;
+    }
+    .footer-p1 , .footer-p2 , .footer-p3 {
+        height: 200px;
+        padding: 0 25px;
+        grid-template-rows: 1fr 40px 120px 1fr;
+    }
+}
+
+/* ---------- Tablette (md) -----------*/
+
+@media screen and (max-width: 768px) {
+
+    h1 {
+        font-size: var(--fs-md-titre1);
+    }
+    h2 {
+        font-size: var(--fs-md-titre2);
+    }
+    h3 {
+        font-size: var(--fs-md-titre3);
+    }
+    p {
+        font-size: var(--fs-md-texte);
+    }
+    li {
+        font-size: var(--fs-md-li);
+    }
+
+    .accueil-p1 {
+        grid-template-columns: 230px 1fr 195px;
+    }
+
+    .accueil-p2 {
+        grid-template-columns: 175px 1fr 250px;
+    }
+    .accueil-p1-texte {
+        text-align: left;
+    }
+    .accueil-p2-texte {
+        text-align: right;
+        grid-template-rows: 1fr 120px 110px 1fr;
+    }
+
+    .contenu-p1 {
+        grid-template-columns: 270px 1fr 155px;
+    }
+    .contenu-p1-texte h2 , .contenu-p1-texte p {
+        margin-left: 20px;
+    }
+    .contenu-p1-btns {
+        grid-template-columns: 20px 210px;
+    }
+
+    .contenu-p2 {
+        grid-template-columns: 115px 1fr 310px;
+    }
+    .contenu-p2-texte h2 , .contenu-p2-texte p {
+        margin-right: 20px;
+    }
+    .contenu-p2-btns {
+        grid-template-columns: 30px 110px 10px 110px 20px;
+    }
+
+    .btn {
+        font-size: var(--fs-md-bouton);
+    }
+
+    footer {
+        height: 200px;
+        grid-template-columns: 155px 1fr 115px 1fr 155px;
+    }
+    .footer-p1 , .footer-p2 , .footer-p3 {
+        height: 160px;
+        padding: 0 15px;
+        grid-template-rows: 1fr 30px 100px 1fr;
+    }
+    .mail1 , .num1 {
+        display: none;
+    }
+    .mail2 , .num2 {
+        display: list-item;
+    }
+
+}
+
+/* ---------- Autres breakpoints -----------*/
+
+@media screen and (max-width: 0px) {
+
+}

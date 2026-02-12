@@ -1,0 +1,103 @@
+/* ---------- Couleurs -----------*/
+
+:root {
+  --accent2: 
+  #D94841;
+
+  --sobre1: 
+  #1F6F54;
+
+  --sobre2: 
+  #1E4F5C;
+
+  --texte: 
+  #FAF7F2;
+
+  --accent1: 
+  #dba136;
+}
+
+.color2 {
+  --accent2: 
+  #E0473C;
+
+  --sobre1: 
+  #2E7D5B;
+
+  --sobre2: 
+  #1F5F63;
+
+  --texte: 
+  #F1E2C6;
+
+  --accent1: 
+  #FFC233;
+}
+
+.color3 {
+  --accent2: 
+  #C45A3D;
+
+  --sobre1: 
+  #1E5B45;
+
+  --sobre2: 
+  #223F44;
+
+  --texte: 
+  #F6EEDD;
+
+  --accent1: 
+  #F2B705;
+}
+
+/* ---------- Tailles de police -----------*/
+
+:root {
+    --fs-xl-titre1 : 90px;
+    --fs-xl-titre2 : 40px;
+    --fs-xl-titre3 : 31px;
+
+    --fs-xl-texte : 30px;
+    --fs-xl-li : 18px;
+    --fs-xl-bouton : 29px;
+}
+
+:root {
+    --fs-lg-titre1 : 70px;
+    --fs-lg-titre2 : 31px;
+    --fs-lg-titre3 : 25px;
+
+    --fs-lg-texte : 22px;
+    --fs-lg-li : 14px;
+    --fs-lg-bouton : 20px;
+}
+
+:root {
+    --fs-md-titre1 : 40px;
+    --fs-md-titre2 : 24px;
+    --fs-md-titre3 : 15px;
+
+    --fs-md-texte : 17px;
+    --fs-md-li : 11px;
+    --fs-md-bouton : 15px;
+}
+
+:root {
+    --fs-sm-titre1 : 40px;
+    --fs-sm-titre2 : 35px;
+    --fs-sm-titre3 : 20px;
+
+    --fs-sm-texte : 20px;
+    --fs-sm-li : 14px;
+    --fs-sm-bouton : 16px;
+}
+
+:root {
+    --fs-xs-titre1 : 40px;
+    --fs-xs-titre2 : 30px;
+    --fs-xs-titre3 : 15px;
+
+    --fs-xs-texte : 18px;
+    --fs-xs-bouton : 14px;
+}
